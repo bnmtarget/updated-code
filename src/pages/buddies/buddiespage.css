@@ -1,0 +1,114 @@
+ 
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+    background: #f7efef;
+}
+
+.form-outline input[type=text] {
+    float: right;
+    padding: 699px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    
+  }
+
+  .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 75px; */
+    padding-bottom: 50px;
+  }
+  
+
+
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #3f51b5;
+}
+
+
+.h1
+{
+    text-align: center;
+}
+.h3{
+    text-align: center;
+    padding-bottom: 15px;
+    margin:0px;
+}
+.p{
+    text-align: center;
+
+}
+
+
+
+
+input {
+    /* Reset */
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: 20;
+    outline: 10;
+    font: inherit;
+    /* Personalize */
+    width: 20em;
+    height: 3em;
+    padding: 0 4em 0 1em;
+    background: no-repeat right 0.8em center/1.4em, linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
+    color: black;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    /* <option> colors */
+    /* Remove focus outline */
+    /* Remove IE arrow */
+  }
+  input:focus {
+    outline: black;
+  }
+  input::-ms-expand {
+    display: none;
+  }
+  
+  input:focus::-webkit-input-placeholder {
+      opacity: 0;
+  }
+  
+  input:focus::-moz-placeholder {
+     opacity: 0;
+  }
+   
+  input:focus:-ms-input-placeholder {
+      opacity: 0;
+  }
+   
+  input:focus:-moz-placeholder {
+     opacity: 0;
+  }
+  
+  input::-webkit-input-placeholder {
+    color:black;
+  }

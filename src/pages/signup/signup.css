@@ -1,0 +1,55 @@
+input {
+  /* Reset */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 20;
+  outline: 10;
+  font: inherit;
+  /* Personalize */
+  width: 20em;
+  height: 300em;
+  padding: 0 4em 0 1em;
+  background: no-repeat right 0.8em center/1.4em, linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
+  color: black;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* <option> colors */
+  /* Remove focus outline */
+  /* Remove IE arrow */
+  padding-bottom: 2500px;
+}
+input:focus {
+  outline: black;
+}
+input::-ms-expand {
+  display: none;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+input:focus::-moz-placeholder {
+   opacity: 0;
+}
+ 
+input:focus:-ms-input-placeholder {
+    opacity: 0;
+}
+ 
+input:focus:-moz-placeholder {
+   opacity: 0;
+}
+
+input::-webkit-input-placeholder {
+  color:black;
+<<<<<<< HEAD
+}
+=======
+}
+
+
+
+>>>>>>> 420aa23fdeaf2503b4a455cfd79520603cd7dfd6
